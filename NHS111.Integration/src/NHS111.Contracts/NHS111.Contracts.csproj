@@ -10,8 +10,4 @@
     <PackageReference Include="MassTransit.Abstractions" Version="8.3.6" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\NHS111.Domain\NHS111.Domain.csproj" />
-  </ItemGroup>
-
 </Project>

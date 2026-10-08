@@ -1,7 +1,5 @@
 namespace NHS111.Contracts.Events;
 
-using NHS111.Domain.Enums;
-
 public record DispositionCreatedEvent(
     Guid DispositionId,
     string NhsNumber,
@@ -9,6 +7,6 @@ public record DispositionCreatedEvent(
     DateTime DateOfBirth,
     string DxCode,
     string DosCode,
-    UrgencyLevel Urgency,
-    RoutingDestination RoutedTo,
+    string Urgency,
+    string RoutedTo,
     DateTime CreatedAt);
