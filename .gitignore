@@ -1,0 +1,46 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Trashes
+Library/
+
+# Build outputs & temporary files
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+out/
+[Tt]emp/
+[Ll]og/
+[Ll]ogs/
+*.log
+
+# User-specific & IDE files
+.vs/
+.vscode/
+.idea/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.sln.docstates
+.gemini/
+
+# NuGet
+*.nupkg
+*.snupkg
+project.lock.json
+project.assets.json
+*.nuget.props
+*.nuget.targets
+
+# Test & Code Coverage output
+[Tt]est[Rr]esults/
+[Cc]overage/
+*.coverage
+*.coveragexml
+
+# OS / Scratch temporary directories
+scratch/
